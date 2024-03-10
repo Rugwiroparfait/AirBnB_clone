@@ -1,5 +1,5 @@
 # AirBnB Clone - The Console
-
+![Airbnb clone](https://s3.amazonaws.com/alx-intranet.hbtn.io/uploads/medias/2018/6/65f4a1dd9c51265f49d0.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIARDDGGGOUSBVO6H7D%2F20240309%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Date=20240309T095225Z&X-Amz-Expires=86400&X-Amz-SignedHeaders=host&X-Amz-Signature=a6670afb98c378821ab4012424df895351e31febacf80393317499db478583ff)
 Welcome to the AirBnB clone project! This project aims to build a command-line interface (CLI) that manages AirBnB objects using Python. The CLI allows you to create, retrieve, update, and delete various AirBnB objects, such as users, states, cities, places, amenities, and reviews.
 
 ## Command Interpreter
