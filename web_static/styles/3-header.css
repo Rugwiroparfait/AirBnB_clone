@@ -1,6 +1,5 @@
-/* Header styles */
 header {
-    background-color: #FF0000;
+    background-color: white;
     height: 70px;
     width: 100%;
     border-bottom: 1px solid #CCCCCC;
@@ -8,12 +7,11 @@ header {
     align-items: center;
 }
 
-.logo {
+header img {
     margin-left: 20px;
-    display: inline-block;
-    vertical-align: middle;
-    color: white;
-    /* Assuming logo.png is in the images folder */
-    background-image: url('../images/logo.png');
-    /* Add appropriate width and height if needed */
+    height: 50px;
+    
 }
+
+
+
