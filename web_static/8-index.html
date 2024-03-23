@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Header, Footer, Filter Box, and Search Results</title>
+    <link rel="stylesheet" href="styles/4-common.css">
+    <link rel="stylesheet" href="styles/3-header.css">
+    <link rel="stylesheet" href="styles/3-footer.css">
+    <link rel="stylesheet" href="styles/6-filters.css">
+    <link rel="stylesheet" href="styles/8-places.css">
+    <link rel="icon" type="image/png" href="images/icon.png">
+</head>
+<body>
+    <header>
+        
+        <!-- Header Content Goes Here -->
+        <img src="images/logo.png" alt="airbnb logo">
+    </header>
+    <div class="container">
+        <section class="filters">
+            <div class="locations">
+                <h3>States</h3>
+                <h4>Fake content</h4>
+                <ul class="popover">
+                    <li>
+                        <h2>State Name 1</h2>
+                        <ul>
+                            <li>City 1</li>
+                            <li>City 2</li>
+                            <li>City 3</li>
+                        </ul>
+                    </li>
+                    <li>
+                        <h2>State Name 2</h2>
+                        <ul>
+                            <li>City 1</li>
+                            <li>City 2</li>
+                            <li>City 3</li>
+                        </ul>
+                    </li>
+                </ul>
+            </div>
+            <div class="amenities">
+                <h3>Amenities</h3>
+                <h4>Fake content</h4>
+                <ul class="popover">
+                    <li>
+                        <h2>Amenity Type 1</h2>
+                        <ul>
+                            <li>Amenity 1</li>
+                            <li>Amenity 2</li>
+                            <li>Amenity 3</li>
+                        </ul>
+                    </li>
+                    <li>
+                        <h2>Amenity Type 2</h2>
+                        <ul>
+                            <li>Amenity 1</li>
+                            <li>Amenity 2</li>
+                            <li>Amenity 3</li>
+                        </ul>
+                    </li>
+                </ul>
+            </div>
+            <button class="search-button">Search</button>
+        </section>
+        <section class="places">
+            <h1>Places</h1>
+            <article>
+                <h2>Place Name 1</h2>
+                <div class="place-details">
+                    <div class="price_by_night">$100</div>
+                    <div class="information">
+                        <div class="max_guest">Max guests: 4 <img src="images/icon_group.png" alt="Group Icon"></div>
+                        <div class="number_rooms">Bedrooms: 2 <img src="images/icon_bed.png" alt="Bed Icon"></div>
+                        <div class="number_bathrooms">Bathrooms: 2 <img src="images/icon_bath.png" alt="Bath Icon"></div>
+                        <div class="user"><strong>Owner:</strong> John Doe</div>
+                        <div class="description">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</div>
+                    </div>
+                </div>
+            </article>
+            <article>
+                <h2>Place Name 2</h2>
+                <div class="place-details">
+                    <div class="price_by_night">$150</div>
+                    <div class="information">
+                        <div class="max_guest">Max guests: 6 <img src="images/icon_group.png" alt="Group Icon"></div>
+                        <div class="number_rooms">Bedrooms: 3 <img src="images/icon_bed.png" alt="Bed Icon"></div>
+                        <div class="number_bathrooms">Bathrooms: 3 <img src="images/icon_bath.png" alt="Bath Icon"></div>
+                        <div class="user"><strong>Owner:</strong> Jane Smith</div>
+                        <div class="description">Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</div>
+                    </div>
+                </div>
+            </article>
+            <!-- Add more articles for additional places -->
+        </section>
+    </div>
+    <footer>
+        <span>Best School</span>
+    </footer>
+</body>
+</html>
