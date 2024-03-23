@@ -34,9 +34,9 @@
 }
 
 .price_by_night::after {
-    content: ''; /* Add the horizontal line */
+     /* Add the horizontal line */
     position: absolute;
-    left: 0; /* Start from the left edge of the article box */
+     /* Start from the left edge of the article box */
     bottom: 0; /* Align with the bottom of the article box */
     width: 100%; /* Span the entire width */
     height: 1px; /* Height of the line */
